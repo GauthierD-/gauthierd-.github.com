@@ -1,0 +1,74 @@
+body {
+    font-family : 'Lato', Calibri, Arial, sans-serif;
+    font-weight : 300;
+    font-size   : 15px;
+    color       : #333;
+}
+
+
+#container {
+margin : 0 auto 0 auto;
+position: relative; 
+width: 1000px;
+height: 325px;
+margin: 80px auto;
+background: white; 
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-moz-box-shadow: 5px 5px 5px #333;
+-webkit-box-shadow: 5px 5px 5px #333;
+box-shadow: 5px 5px 5px #333
+}
+
+
+#about {
+    float : left;
+    width : 400px;
+    height: 325px; 
+    text-align: justify;
+}
+
+#social {
+    float:left;
+    height: 325px;
+    width: 400px;
+}
+
+#social ul{
+    list-style-type: none;
+} 
+
+.gplusList {
+    z-index: 1003;
+    top: 65px;
+    left:1px;
+    margin-left:0px;
+    opacity: 0.8;
+    -webkit-transform: rotate(1deg);
+    width:300px;
+    background-color:gray;
+}
+
+.fbList {
+    z-index: 1003;
+    top: 65px;
+    left:1px;
+    margin-left:0px;
+    opacity: 0.8;
+    -webkit-transform: rotate(-1deg);
+    width:300px;
+    background-color:gray;
+}
+
+
+.lastfmList {
+    z-index: 1003;
+    top: 65px;
+    left:1px;
+    margin-left:0px;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    width:300px;
+    background-color:gray;
+}
