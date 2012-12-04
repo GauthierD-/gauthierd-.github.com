@@ -2,86 +2,13 @@ body {
     margin : 0;
     font-family : 'Helvetica a Nueve', Helvetica, sans-serif;
     background-color: rgb(245,245,245);
+    background-image: url('../img/body.jpg');
 }
 
-.container {
-    margin-top : 40px;
-    background-color: #EEE;
-    height: 550px;
-    width: 750px;
-}
-
-.span4 {
-    /* margin: 0; */
-    background-color: white;
-    height: 550px;
-    width: 300px;
-}
-
-.cover {
-    width  : 160px;
-    height : 160px;
-    margin-top  : 30px;
-    margin-left : 55px;
-}
-
-.span5 {
-    margin: 0;
-    background-color: orange;
-    height: 550px;
-    width: 400px;
-}
-
-.links {
-    background-color: purple;
-    width: 200px;
-    height: 300px;
-    margin-left: 40px;
-    margin-top: 35px
-}
-
-.linkMail {
-    height  : 50px;
-    width   : 200px;
-    background-color: black;
-}
-
-/*
- *
- *  ici on vire LinkMail puis on fait un truc swag avec nav et la liste */
-
-.about {
-    margin-top: 55px;
-    margin-left: 20px;
-    width: 350px;
-    height: auto;
-    text-align: justify;
-}
-
-.logoSUPINFO {
-    width:350px;
-    height: 100px;
-    margin-top: 85px;
-    margin-left :20px;
-    /* background-color: black; */
-
-}
-
-.footer {
-    margin-top: 5px;
-}
-
-.logo {
-    width: 187,5px;
-    height: 100px;
-}
-
-.githubLogo {
-    width: 187,5px;
-    height: 100px; 
-}
-
-.nodejsLogo {
-    width : 187,5px;
-    height: 100px;
+.wrap{
+    width: 940px;
+    height: 540px;
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color: red;
 }
