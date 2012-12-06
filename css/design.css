@@ -96,7 +96,7 @@ li {
 }
 
 #myCarousel {
-    background-color: red;
+    /* background-color: red; */
     height: 500px;
     width: 500px; 
 }
