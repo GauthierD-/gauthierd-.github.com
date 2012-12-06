@@ -13,6 +13,8 @@
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
+        $('body').off('.data-api');
+
         $('.carousel').carousel({
             interval: 2000
         });
@@ -67,8 +69,8 @@
                     <div class='span7'>
                         <div id="myCarousel" class="carousel slide">
                             <div class="carousel-inner">
-                                <div class="item">
-                                    <img src="img/javascript.png" width="500" height="500">
+                                <div class="active item">
+                                    <img src="img/javascript.png" width="500" height="400">
                                     <!--
                                     <div class='carousel-caption'>
                                         <h4>toto a la plage</h4>
@@ -76,11 +78,8 @@
                                     </div> 
                                     -->
                                 </div>
-                                <!--<div class="item">
-                                    <img src="img/vim.png">
-                                </div>-->
                                 <div class="item">
-                                    <img src="img/octocat.png" width="500" height="500">
+                                    <img src="img/octocat.png" width="500" height="400">
                                 </div>
                             </div>
                             <!-- Carousel nav -->
