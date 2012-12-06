@@ -5,10 +5,111 @@ body {
     background-image: url('../img/body.jpg');
 }
 
-.wrap{
+.wrap {
     width: 940px;
     height: 540px;
     margin: 0 auto;
     margin-top: 3%;
+    /*background-color: red;*/
+}
+
+.img-polaroid {
+    box-shadow: 1px 1px 13px #555;
+}
+
+.lead {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+blockquote.pull-right{
+    font-size: 16px;
+    width: 300px;
+    border-right: 5px solid White;
+}
+
+
+/*=================================*/
+
+.linksBox {
+    margin-left: 20px;
+    margin-top: 20px;
+    /*background-color: red;*/
+    width: 335px;
+}
+
+.firstLink {
+    background-color: gray;
+}
+
+.link {
+    /*background-color: yellow;*/
+}
+
+.lastLink {
+    /*background-color: purple;*/
+}
+
+.icon-gmail {
+    background-image: url('../img/gmail.png');
+    background-size: 98%;
+    background-position: -1px -4px;
+    width: 45px;
+    height: 40px;
     background-color: red;
 }
+
+/*===========================================*/
+            /*test ul pour bouton*/
+/*===========================================*/
+
+.boutonswag .listLinks {
+    /*background-color: red;*/
+    height: 300px;
+    width: 380px;
+    list-style-type: none;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -wekbit-padding-start: 40px;
+
+}
+
+* , ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    width: 100%;
+    background: white;
+    line-height: 55px; /* 70 cest bien aussi :/  */
+    padding: 0 30px 0 75px;
+    display: block;
+    color: #BCBCBC;
+    cursor: pointer;
+    font-weight: 700px;
+}
+
+#myCarousel {
+    background-color: red;
+    height: 500px;
+    width: 500px; 
+}
+
+/*
+.span12{
+    background-color: green;
+}
+
+.span5{
+    background-color: violet;
+}
+
+.span7 {
+    background-color: pink;
+}*/
