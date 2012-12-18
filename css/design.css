@@ -1,26 +1,3 @@
-.listLinks a li { 
-    opacity: 1;
-    -webkit-transform: none;
-    -webkit-transition: all 800ms ease;
-    -moz-transform: none;
-    -moz-transition: all 800ms ease;
-    -o-transform: none;
-    -o-transition: all 800ms ease;
-    -ms-transform: none;
-    -ms-transition: all 800ms ease;
-}
-
-.listLinks a:hover li {
-    color:#fff;
-    background:#EDA933;
-}
-
-
-a:hover {
-    text-decoration: underline;
-}
-
-
 body {
     margin : 0;
     font-family : 'Helvetica a Nueve', Helvetica, sans-serif;
@@ -153,8 +130,25 @@ li:hover {
     background-size: contain;
 }
 
+.listLinks a li { 
+    opacity: 1;
+    text-decoration: none;
+    -webkit-transform: none;
+    -webkit-transition: all 800ms ease;
+    -moz-transform: none;
+    -moz-transition: all 800ms ease;
+    -o-transform: none;
+    -o-transition: all 800ms ease;
+    -ms-transform: none;
+    -ms-transition: all 800ms ease;
+}
 
-#myCarousel {
-    height: 400px;
-    width: 400px; 
+.listLinks a:hover li {
+    color:#fff;
+    background:#EDA933;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
 }
