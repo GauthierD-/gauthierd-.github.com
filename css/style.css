@@ -9,7 +9,6 @@
 	font-style: normal;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
 	font-family: 'icomoon';
 	content: attr(data-icon);
@@ -19,7 +18,6 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
 [class^="ico-"]:before, [class*=" ico-"]:before {
 	font-family: 'icomoon';
 	font-style: normal;
